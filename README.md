@@ -1,0 +1,3 @@
+# Encrypting and Decrypting Data Using Azure Key Vault
+This repository demonstrates how to securely encrypt and decrypt data using an RSA key stored in Azure Key Vault, ensuring that the private key never leaves the cloud environment.
+The project covers the complete implementation process, from provisioning Azure resources with Azure CLI to integrating Azure Key Vault into a .NET console application. By leveraging the Azure.Security.KeyVault.Keys package, the solution enables seamless cryptographic operations without exposing sensitive key material, enhancing data security in cloud-based applications.
